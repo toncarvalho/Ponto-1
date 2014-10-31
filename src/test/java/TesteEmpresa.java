@@ -1,3 +1,7 @@
+import org.junit.Test;
+import ponto.bancoDeDados.BancoDeDados;
+import ponto.domain.EmpresaBusinnes;
+import ponto.domain.PessoaBussines;
 import ponto.model.Empresa;
 import ponto.model.Endereco;
 
@@ -8,6 +12,7 @@ import java.util.ArrayList;
  */
 public class TesteEmpresa {
 
+    @Test
     public void testaEmpresa(){
 
         Empresa nova = new Empresa();
@@ -29,5 +34,17 @@ public class TesteEmpresa {
         enderecos.add(e1);
 
         nova.setEnderecoList(enderecos);
+
+        EmpresaBusinnes bussines = new EmpresaBusinnes();
+
+        bussines.salvar(nova);
+
+        bussines.listarTudo();
+
+
+
+
+
+
     }
 }

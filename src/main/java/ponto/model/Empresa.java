@@ -56,4 +56,13 @@ public class Empresa {
 
     }
 
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "nome='" + nome + '\'' +
+                ", cnpj='" + cnpj + '\'' +
+                ", inscricaoEstadual='" + inscricaoEstadual + '\'' +
+                ", enderecoList=" + enderecoList +
+                '}';
+    }
 }
