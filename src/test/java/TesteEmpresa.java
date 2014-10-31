@@ -24,7 +24,7 @@ public class TesteEmpresa {
         e1.setBairro("Pq das Grevileas");
         e1.setCidade("Maringa");
         e1.setEstado("PR");
-        e1.setNumero("91");
+        e1.setNumero("910");
 
         enderecos.add(e1);
 
