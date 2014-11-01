@@ -56,4 +56,17 @@ public class EmpresaBusinnes {
 
 
     }
+
+    public void remover(int indice) {
+
+        EmpresaDao teste = new EmpresaDao();
+        teste.remove(indice);
+
+    }
+
+    public void pesquisa(String prm){
+        List<Empresa> empresas = BancoDeDados.empresas;
+
+        
+    }
 }
