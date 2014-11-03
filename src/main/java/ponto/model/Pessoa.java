@@ -81,4 +81,9 @@ public class Pessoa {
         result = 31 * result + (enderecoList != null ? enderecoList.hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Nome: " + getNome();
+    }
 }

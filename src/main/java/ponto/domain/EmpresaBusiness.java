@@ -69,4 +69,14 @@ public class EmpresaBusiness {
 
         
     }
+
+    public void pesquisar(String pesquisaNome) {
+        List<Empresa> empresas = BancoDeDados.empresas;
+
+        for (int i = 0; i < empresas.size() ; i++) {
+            if (empresas.get(i).getNome() == pesquisaNome ){
+                System.out.println("Achei empresa");
+            }else {System.out.println("Empresa não Encontrada");}
+        }
+    }
 }

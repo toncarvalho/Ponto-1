@@ -14,6 +14,7 @@ public class TesteEmpresa {
     public void testaEmpresa(){
 
         Empresa nova = new Empresa();
+        String pesquisaNome="Empresa Modelo";
 
         nova.setNome("Empresa Modelo");
         nova.setCnpj("61080735000199");
@@ -39,6 +40,6 @@ public class TesteEmpresa {
 
         business.listarTudo();
 
-
+        business.pesquisar(pesquisaNome);
     }
 }
