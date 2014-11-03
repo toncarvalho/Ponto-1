@@ -35,12 +35,11 @@ public class TesteEmpresa {
 
         nova.setEnderecoList(enderecos);
 
-        EmpresaBusinnes bussines = new EmpresaBusinnes();
+        EmpresaBusinnes business = new EmpresaBusinnes();
 
-        bussines.salvar(nova);
+        business.salvar(nova);
 
-        bussines.listarTudo();
-
+        business.listarTudo();
 
 
     }
