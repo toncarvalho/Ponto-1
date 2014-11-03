@@ -1,7 +1,5 @@
 import org.junit.Test;
-import ponto.bancoDeDados.BancoDeDados;
-import ponto.domain.EmpresaBusinnes;
-import ponto.domain.PessoaBussines;
+import ponto.domain.EmpresaBusiness;
 import ponto.model.Empresa;
 import ponto.model.Endereco;
 
@@ -35,7 +33,7 @@ public class TesteEmpresa {
 
         nova.setEnderecoList(enderecos);
 
-        EmpresaBusinnes business = new EmpresaBusinnes();
+        EmpresaBusiness business = new EmpresaBusiness();
 
         business.salvar(nova);
 

@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by Vinicius on 31/10/2014.
  */
-public class EmpresaBusinnes {
+public class EmpresaBusiness {
     //verificar regras, validações, e salvar
 
 
